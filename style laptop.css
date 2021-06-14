@@ -1,0 +1,255 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+	background: rgba(199,198,198,1.00);
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 2px;
+}
+#wrapper{
+	width: 1000px;
+	margin: 0 auto;
+/*	border: 2px solid black;*/
+}
+.header{
+	width: 100%;
+/*	background: grey;*/
+}
+.header-main{
+	width: 100%;
+	height: 90px;
+/*	background: grey;*/
+	margin-top: 5px;
+}
+.logo{
+	width: 20%;
+	height: 90px;
+/*	background: grey;*/
+	float: left;
+	overflow: hidden;
+	line-height: 90px;
+}
+.logo img{
+	width: 80%;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+.banner{
+	width: 79%;
+	height: 90px;
+/*	background: grey;*/
+	float: right;
+	text-align: center;
+}
+.banner p{
+	font-size: 30px;
+	margin-top: 25px;
+	font-weight: bold;
+	color: blue;
+	margin-right: 70px;
+}
+.banner a{
+	background: black;
+	padding: 8px 30px;
+	color: white;
+	text-decoration: none;
+}
+.banner a:hover{
+	background: white;
+	color: black;
+}
+.header-bottom{
+	width: 100%;
+	height: 30px;
+/*	background: #23E774;*/
+}
+.menu{
+	width: calc( 100% - 4px );
+	height: 26px;
+	border:2px solid black;
+	border-radius: 10px;
+	line-height: 26px;
+	margin-top: 5px;
+}
+.menu ul{
+	list-style: none;
+	text-align: center;
+}
+.menu ul li{
+	display: inline-block;
+	margin:0 25px;
+}
+.menu ul li a{
+	color: black;
+	text-decoration: none;
+}
+.menu ul li a:hover{
+	color: blue;
+}
+.main{
+	width: 100%;
+	padding: 10px 0;
+/*	background: red;*/
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.jumbotron{
+	width: 100%;
+	height: 300px;
+/*	background: blue;*/
+	padding: 60px 0;
+}
+.banner-left{
+	width: 50%;
+	height: 300px;
+	background: black;
+	float: left;
+	padding: 20px;
+	box-sizing: border-box;
+}
+.banner-left p{
+	margin-bottom: 30px;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+}
+.banner-left a{
+	font-size: 15px;
+	text-decoration: none;
+	color: white
+}
+.banner-right{
+	width: 50%;
+	height: 300px;
+	background: #26D1A4;
+	float: left;
+	overflow: hidden;
+}
+.banner-right img{
+	height: 100%;
+}
+.about{
+	width: 100%;
+	height: 100px;
+	background: rgba(221,72,72,1.00);
+	padding: 70px 0;
+	text-align: center;
+	color: white;
+}
+.about p{
+	margin: 15px 0 10px;
+}
+.about a{
+	color: white;
+	text-decoration: none;
+	padding-bottom: 5px;
+	border-bottom:1px dotted white;
+}
+.banphim{
+	width: 100%;
+	height: 300px;
+	padding: 60px 0;
+	padding-left: 5px;
+}
+.banphim p{
+	margin-bottom: 30px;
+	color: black;
+	font-size: 50px;
+	font-weight: bold;
+	text-align: center;
+}
+.banphim a{
+	font-size: 20px;
+	text-decoration: none;
+	color: black;
+	text-align: center;
+}
+.phanloai{
+	width: 100%;
+	height: 300px;
+/*	background: blue;*/
+	padding: 60px 0;
+}
+.phanloai-left{
+	width: 50%;
+	height: 300px;
+	background: black;
+	border: 2px solid rgba(199,198,198,1.00);
+	float: left;
+	padding: 20px;
+	box-sizing: border-box;
+	text-align: center;
+}
+.phanloai-left h1{
+	font-size: 36px;
+	color: white;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+}
+.phanloai-left p{
+	margin-bottom: 20px;
+	text-align: center;
+	color: white;
+}
+.phanloai-left a{
+	background: grey;
+	padding: 20px 50px;
+	border-radius: 10px;
+	color: black;
+	text-decoration: none;
+}
+.phanloai-left a:hover{
+	background: blue;
+	color: white;
+}
+.phanloai-right{
+	width: 50%;
+	height: 300px;
+	border: 2px solid rgba(199,198,198,1.00);
+	background: black;
+	float: left;
+	padding: 20px;
+	box-sizing: border-box;
+	text-align: center;
+}
+.phanloai-right h1{
+	font-size: 36px;
+	color: white;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+}
+.phanloai-right p{
+	margin-bottom: 20px;
+	text-align: center;
+	color: white;
+}
+.phanloai-right a{
+	background: grey;
+	padding: 20px 50px;
+	border-radius: 10px;
+	color: black;
+	text-decoration: none;
+}
+.phanloai-right a:hover{
+	background: blue;
+	color: white;
+}
+.footer{
+	width: 100%;
+	height: 100px;
+	background: rgba(255,91,94,1.00);
+	border-radius: 10px;
+}
+.footer p{
+	font-size: 15px;
+	padding: 7px;
+	font-weight: bold;
+	text-align:center;
+}
+
